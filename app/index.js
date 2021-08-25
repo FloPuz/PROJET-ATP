@@ -1,14 +1,7 @@
 import React from 'react';
-import { Text, View } from 'react-native';
+import ReactDOM from 'react-dom';
 
-const MyApp = () => {
-  return (
-    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
-      <Text>
-        TEST
-      </Text>
-    </View>
-  );
-}
-
-export default MyApp;
+ReactDOM.render(
+  <h1>Hello World!</h1>,
+  document.getElementById('root')
+);
