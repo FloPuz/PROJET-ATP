@@ -5,7 +5,7 @@
   "description": "Portfolio for Afip and Orange",
   "main": "index.js",
   "scripts": {
-    "build-watch": "parcel watch ./client/index.html",
+    "build-watch": "parcel watch ./app/index.html",
     "start-watch": "nodemon server/index.js",
     "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run build-watch\"",
     "build": "parcel build ./app/index.html",
