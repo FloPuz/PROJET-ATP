@@ -1,0 +1,41 @@
+
+{
+  "name": "tutorial-react-parcel-express",
+  "version": "1.0.0",
+  "description": "A tiny getting started for a react project, with front-end built with parcel, and served through express.",
+  "main": "index.js",
+  "scripts": {
+    "build-watch": "parcel watch ./client/index.html",
+    "start-watch": "nodemon server/index.js",
+    "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run build-watch\"",
+    "build": "parcel build ./client/index.html",
+    "start": "npm run build && node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tutorial",
+    "react",
+    "parcel",
+    "express"
+  ],
+  "author": "witchard",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/witchard/tutorial-react-parcel-express.git"
+  },
+  "devDependencies": {
+    "concurrently": "*",
+    "nodemon": "*",
+    "parcel-bundler": "*"
+  },
+  "dependencies": {
+    "express": "*",
+    "react": "*",
+    "react-dom": "*"
+  },
+  "bugs": {
+    "url": "https://github.com/witchard/tutorial-react-parcel-express/issues"
+  },
+  "homepage": "https://github.com/witchard/tutorial-react-parcel-express#readme"
+}
