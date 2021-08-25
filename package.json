@@ -1,8 +1,8 @@
 
 {
-  "name": "tutorial-react-parcel-express",
+  "name": "portfolio Florent PUZENAT",
   "version": "1.0.0",
-  "description": "A tiny getting started for a react project, with front-end built with parcel, and served through express.",
+  "description": "Portfolio for Afip and Orange",
   "main": "index.js",
   "scripts": {
     "build-watch": "parcel watch ./client/index.html",
@@ -12,17 +12,11 @@
     "start": "npm run build && node server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "tutorial",
-    "react",
-    "parcel",
-    "express"
-  ],
-  "author": "witchard",
-  "license": "MIT",
+  "author": "FloPuz",
+  "license": "ME",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/witchard/tutorial-react-parcel-express.git"
+    "url": "git+https://github.com/FloPuz/PROJET-ATP.git"
   },
   "devDependencies": {
     "concurrently": "*",
@@ -35,7 +29,7 @@
     "react-dom": "*"
   },
   "bugs": {
-    "url": "https://github.com/witchard/tutorial-react-parcel-express/issues"
+    "url": "https://github.com/FloPuz/PROJET-ATP/issues"
   },
-  "homepage": "https://github.com/witchard/tutorial-react-parcel-express#readme"
+  "homepage": "https://github.com/FloPuz/PROJET-ATP#readme"
 }
