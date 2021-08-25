@@ -1,0 +1,35 @@
+{
+    "name": "PortfolioFlorentPUZENAT",
+    "version": "1.0.0",
+    "description": "empty",
+    "main": "index.js",
+    "scripts": {
+      "build-watch": "parcel watch ./client/index.html",
+      "start-watch": "nodemon server/index.js",
+      "dev": "concurrently --kill-others \"npm run start-watch\" \"npm run build-watch\"",
+      "build": "parcel build ./client/index.html",
+      "start": "npm run build && node server/index.js",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    
+    "author": "FloPuz",
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/FloPuz/PROJET-ATP.git"
+    },
+    "devDependencies": {
+      "concurrently": "*",
+      "nodemon": "*",
+      "parcel-bundler": "*"
+    },
+    "dependencies": {
+      "express": "*",
+      "react": "*",
+      "react-dom": "*"
+    },
+    "bugs": {
+      "url": "https://github.com/FloPuz/PROJET-ATP/issues"
+    },
+    "homepage": "https://github.com/FloPuz/PROJET-ATP#readme"
+  }
