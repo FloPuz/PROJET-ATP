@@ -1,4 +1,3 @@
-<script>
 import React from 'react';
 import { Text, View } from 'react-native';
 
@@ -13,4 +12,3 @@ const MyApp = () => {
 }
 
 export default MyApp;
-</script>
